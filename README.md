@@ -164,6 +164,18 @@ Replace these things first:
 10. your LinkedIn link
 11. your GitHub link
 
+### How the Send Message button works
+
+The `Send a Message` button is set to open Gmail in the browser.
+
+So it should not open Microsoft Outlook.
+
+Important:
+
+- It works best if you are already signed in to Gmail
+- You should replace `yourname@email.com` in `index.html` with your own email address
+- The email row in the contact section also uses Gmail
+
 ## How to upload your photo on GitHub
 
 Your photo should go in this folder:
@@ -206,6 +218,43 @@ src="assets/images/myphoto.png"
 The website will still work.
 
 It will show initials instead of a real image.
+
+## How to upload your resume on GitHub
+
+The template includes a `Download Resume` button.
+
+Your resume should go in this folder:
+
+`assets/docs/`
+
+### Easiest method
+
+1. Open your project on GitHub
+2. Open the `assets` folder
+3. Open the `docs` folder
+4. Click `Add file`
+5. Click `Upload files`
+6. Select your resume PDF
+7. Rename the file to `resume.pdf`
+8. Click `Commit changes`
+
+This is the easiest method because the template is already looking for this exact file name:
+
+`assets/docs/resume.pdf`
+
+### If your resume has another name
+
+That is still okay.
+
+But then you must also open `index.html` and change:
+
+`assets/docs/resume.pdf`
+
+to your real file name.
+
+Example:
+
+`assets/docs/riya-sharma-resume.pdf`
 
 ## How to change colors on GitHub
 

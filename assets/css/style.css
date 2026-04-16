@@ -1199,6 +1199,12 @@ select {
     max-width: 400px;
 }
 
+.ct-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
 .ct-links {
     display: flex;
     flex-direction: column;

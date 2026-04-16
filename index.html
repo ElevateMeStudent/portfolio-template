@@ -25,6 +25,8 @@
          3. Put your image at assets/images/profile-photo.jpg
             or change the src below to match your image file name.
          4. Update the initials in the logo and image fallback from YN to your initials.
+         5. Put your resume PDF at assets/docs/resume.pdf
+            or change the resume link below to match your file name.
     -->
 
     <header class="site-header">
@@ -369,7 +371,17 @@
                         <p class="ct-sub">
                             [Write one short message inviting recruiters, clients, or collaborators to contact you.]
                         </p>
-                        <a href="mailto:yourname@email.com" class="btn-a">Send a Message &rarr;</a>
+                        <div class="ct-actions">
+                            <a
+                                href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=yourname@email.com&amp;su=Portfolio%20Inquiry"
+                                class="btn-a"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Send a Message &rarr;
+                            </a>
+                            <a href="assets/docs/resume.pdf" class="btn-b" download="Your-Name-Resume.pdf">Download Resume</a>
+                        </div>
                     </div>
 
                     <div class="ct-links">
@@ -378,7 +390,12 @@
                             <div><span class="ct-lbl">Phone</span><span class="ct-val">[Your Phone Number]</span></div>
                         </a>
 
-                        <a class="ct-row" href="mailto:yourname@email.com">
+                        <a
+                            class="ct-row"
+                            href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=yourname@email.com&amp;su=Portfolio%20Inquiry"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <div class="ct-ico"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
                             <div><span class="ct-lbl">Email</span><span class="ct-val">[yourname@email.com]</span></div>
                         </a>
